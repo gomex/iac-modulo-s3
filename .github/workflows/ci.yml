@@ -11,4 +11,3 @@ jobs:
     uses: "williamsanmartin4/cicd_centralizado/.github/workflows/terraform_valida_modulo.yaml@feat/terraform-format"
     secrets:
       token: ${{ secrets.TOKEN }}
-
